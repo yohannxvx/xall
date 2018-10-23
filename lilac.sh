@@ -22,7 +22,9 @@ apt-get update -y && apt-get install -f -y && apt-get install -y tmux && apt-get
 
 echo " "
 echo "installation success"
-sleep 3
+sleep t
 clear
 
 cd
+
+echo "you may now use your config to start miner"
